@@ -1,100 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Myari Adams | Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      background: linear-gradient(to bottom, #d6eaff, #fff8dc);
-      color: #333;
-    }
-    header {
-      background-color: #b3d9ff;
-      padding: 2rem;
-      text-align: center;
-      animation: fadeIn 2s ease-in-out;
-    }
-    header h1 {
-      color: #f2c94c;
-      font-size: 3rem;
-    }
-    @keyframes fadeIn {
-      0% {opacity: 0; transform: translateY(-20px);}
-      100% {opacity: 1; transform: translateY(0);}
-    }
-    .container {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .section {
-      background-color: #fff;
-      padding: 1.5rem;
-      border-radius: 15px;
-      margin-bottom: 2rem;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .section h2 {
-      color: #85b8ff;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #999;
-    }
-    .highlight {
-      background: #fff4c2;
-      padding: 0.2rem 0.5rem;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Myari Adams' portfolio - Computer Science Student & Software Developer">
+    <title>Myari Adams - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f8ff; /* Pastel blue background */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #fef1c7; /* Pastel yellow background */
+            border-bottom: 5px solid #f0cfe0;
+        }
+        header h1 {
+            font-size: 3em;
+            color: #2d2d2d;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px;
+        }
+        h2 {
+            color: #2d2d2d;
+            font-size: 2em;
+            border-bottom: 2px solid #f0cfe0;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #f0cfe0;
+        }
+        a:hover {
+            color: #f0a800;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Myari Adams</h1>
-    <p class="highlight">Computer Science ✦ Theater ✦ Creativity ✦ Code</p>
-  </header>
-  <div class="container">
+    <header>
+        <h1>Myari Adams</h1>
+        <p>Computer Science Student | Software Developer | Passionate About Technology & Creativity</p>
+    </header>
+
     <div class="section">
-      <h2>About Me</h2>
-      <p>Insert a short personal intro here ✨</p>
+        <h2>About Me</h2>
+        <p>I am a curious and adaptable Computer Science student at Spelman College with a passion for software development, creative problem-solving, and building impactful technology. I enjoy using my skills to build projects that make a real-world impact.</p>
     </div>
+
     <div class="section">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>LinguaLeap:</strong> Brief description here.</li>
-        <li><strong>FocusFlow:</strong> Brief description here.</li>
-        <li><strong>Almost Alive:</strong> Brief description here.</li>
-      </ul>
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Spelman College</strong>, Atlanta, GA<br>
+                Bachelor of Science in Computer and Information Sciences (Expected May 2028)<br>
+                Minor in Theater and Performance Studies, GPA: 3.4/4.0
+            </li>
+        </ul>
     </div>
+
     <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Python, C++, HTML, CSS</li>
-        <li>Flask, Windows Forms</li>
-        <li>Spanish (fluent)</li>
-      </ul>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python, C++</li>
+            <li><strong>Web Development:</strong> HTML, CSS</li>
+            <li><strong>Frameworks/Technologies:</strong> Flask (Python), Windows Forms (C#)</li>
+            <li><strong>Languages:</strong> Fluent in English and Spanish</li>
+        </ul>
     </div>
+
     <div class="section">
-      <h2>Education</h2>
-      <p><strong>Spelman College</strong> (Expected May 2028)</p>
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>LinguaLeap</strong>: A Spanish quiz web app using Python (Flask), JavaScript, and HTML/CSS. <a href="https://github.com/YOURUSERNAME/LinguaLeap" target="_blank">View on GitHub</a><br>
+                - Randomized quizzes with immediate feedback<br>
+                - Progress tracker to track user performance<br>
+                - Difficulty levels (Beginner, Intermediate, Advanced)<br>
+                - Future Features: Audio integration for pronunciation practice and a leaderboard system.
+            </li>
+            <li>
+                <strong>FocusFlow</strong>: A task management desktop app using C# and Windows Forms. <a href="https://github.com/YOURUSERNAME/FocusFlow" target="_blank">View on GitHub</a><br>
+                - User authentication and personalized task lists<br>
+                - Drag-and-drop functionality for prioritizing tasks<br>
+                - Customizable reminders and deadlines<br>
+                - Future Features: Cloud sync for cross-device task management.
+            </li>
+            <li>
+                <strong>Almost Alive</strong>: A 3D survival game created in Unity during HBCU Game Jam 2025. <a href="https://github.com/YOURUSERNAME/AlmostAlive" target="_blank">View on GitHub</a><br>
+                - Implemented core gameplay mechanics and interactive objects<br>
+                - Personalized 3D assets and animations<br>
+                - Sound effects and dialogue integration for an immersive experience<br>
+                - Future Features: UI elements, health system, more 3D assets.
+            </li>
+        </ul>
     </div>
+
     <div class="section">
-      <h2>Contact</h2>
-      <p>Email: myariadams@gmail.com<br>
-      Phone: (707) 704-1242<br>
-      GitHub/Portfolio: <em>Add your link here</em></p>
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Monkey Business Camp</strong>, Berkeley, CA<br>
+                School Break Camp Counselor (Since Winter 2022)<br>
+                - Managed camper behaviors and led team-building activities.<br>
+                - Organized creative play areas and problem-solving games.
+            </li>
+        </ul>
     </div>
-  </div>
-  <footer>
-    Made with ☀️ & aspirations ~ Myari Adams
-  </footer>
+
+    <div class="section">
+        <h2>Activities & Awards</h2>
+        <ul>
+            <li>AUC National Society of Black Engineers</li>
+            <li>Spelman Sisters of STEM</li>
+            <li>Advanced Coding Collective</li>
+            <li>Morehouse Tech Collective</li>
+            <li>Google Cloud Career Launchpad (Expected Completion: June 2025)</li>
+            <li>HBCU Game Jam 2025 Participant</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Contact: myariadams@gmail.com</p>
+    </footer>
 </body>
 </html>
